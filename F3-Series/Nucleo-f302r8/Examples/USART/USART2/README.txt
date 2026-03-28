@@ -1,0 +1,1 @@
+This example demonstrates bare-metal USART2 initialization on the Nucleo-F302R8 using direct register configuration for clock gating, GPIO alternate functions, and an approximate baud rate calculation.

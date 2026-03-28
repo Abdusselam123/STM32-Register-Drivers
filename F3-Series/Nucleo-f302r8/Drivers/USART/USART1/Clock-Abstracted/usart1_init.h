@@ -4,6 +4,23 @@
  * @author Abdusselam
  * @license MIT
  */
+/*
+ * ======================================================================
+ *  !!! CRITICAL HARDWARE NOTICE !!!
+ * ======================================================================
+ *  TARGET BOARD: NUCLEO-F302R8 (STM32F302R8)
+ * ----------------------------------------------------------------------
+ *  This driver is pre-configured for the target board above.
+ *
+ *  If you are using a different STM32 family (F1 / F3 / F4 / L4, etc.)
+ *  or a different development board, you MUST review and update the
+ *  "USER SETTINGS" section accordingly.
+ *
+ *  ⚠️ Even after required modifications, 
+ *  this driver may not work on all STM32 devices due to differences in 
+ *  hardware architecture, clock tree configuration, and peripheral register 
+ *  implementation across STM32 families.
+ */
 
 #ifndef USART1_INIT_H_
 #define USART1_INIT_H_

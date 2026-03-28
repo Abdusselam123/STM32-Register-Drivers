@@ -13,6 +13,11 @@
 #define USART2_AF 					7
 #define USART2_TX_PIN				2
 #define USART2_RX_PIN				3
+/* * NOTE: USART2 clock selection (USART2SW bits in RCC_CFGR3) is NOT available on STM32F302x8 devices.
+ * USART2 is internally hard-wired to PCLK. 
+ * Since we are running on default HSI (8MHz) and APB1 prescaler is 1,
+ * USART2_BUS_CLOCK_HZ is fixed at 8,000,000Hz.
+ */
 #define USART2_BUS_CLOCK_HZ			8000000U
 #define USART2_TARGET_BAUDRATE		9600U
 

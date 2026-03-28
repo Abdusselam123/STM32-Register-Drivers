@@ -1,3 +1,12 @@
+/**
+ * @file 			main.c (USART2_init_example_1)
+ * @brief 			STM32 USART2 register-level initialization example 1 (Register-level, no HAL/LL)
+ * @target-board	stm32-NUCLEO-f302r8
+ * @author 			Abdusselam
+ * @license 		MIT
+ */
+
+
 #include "stm32f3xx.h"
 #include "stm32f3xx_hal.h"
 

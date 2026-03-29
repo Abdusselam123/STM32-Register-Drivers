@@ -1,0 +1,1 @@
+This example configures I2C2 on the Nucleo-F302R8 using direct register access.
